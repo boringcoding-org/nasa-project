@@ -18,7 +18,3 @@ jobs:
             '16'
       - run: npm install
       - run: npm build --prefix client
-
-
-  deploy:
-    needs: build
